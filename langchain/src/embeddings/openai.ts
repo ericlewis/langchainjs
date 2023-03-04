@@ -1,4 +1,4 @@
-import { Configuration, OpenAIApi, CreateEmbeddingRequest } from "openai";
+import { Configuration, OpenAIApi, CreateEmbeddingRequest } from "@ericlewis/openai";
 import { backOff } from "exponential-backoff";
 import fetchAdapter from "../util/axios-fetch-adapter.js";
 import { chunkArray } from "../util/index.js";

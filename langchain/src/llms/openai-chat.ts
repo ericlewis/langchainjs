@@ -4,7 +4,7 @@ import {
   ChatCompletionRequestMessage,
   CreateChatCompletionRequest,
   ConfigurationParameters,
-} from "openai";
+} from "@ericlewis/openai";
 import type { IncomingMessage } from "http";
 import { createParser } from "eventsource-parser";
 import { backOff } from "exponential-backoff";
